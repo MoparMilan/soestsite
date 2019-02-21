@@ -1,0 +1,89 @@
+/*NavBar Style*/
+nav{
+    //margin-left: 0px;
+    padding-left: 0px;
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    z-index: 999;
+    background-color: #303030;
+    margin-top: 0;
+
+}
+
+nav li {
+    float: left;
+	margin-bottom: 0px;
+	margin-top: 0;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 50px;
+	padding-left: 50px;
+    text-decoration: none;
+	//font-family: 'Lato', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 25px;
+	margin-bottom: 0px;
+	margin-top: 0;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav a:hover {
+	color: #FFFF;
+    background-color: #111;
+	text-decoration: none;
+}
+
+#FirstItem {
+//margin-left: 100px;
+}
+
+#logo{
+margin-left: 30px;
+height: 50px !important;
+width: 60px !important;
+margin-top: 10px;
+margin-bottom: 0px;
+margin-right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    overflow: hidden;
+    background-color: #303030;
+	margin-top: 0;
+	
+}
+
+nav a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+nav a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+
+
+
+
+
+
+/*End Navbar*/

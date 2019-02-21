@@ -1,0 +1,32 @@
+#tel{
+margin-left: 100px;
+}
+
+#e{
+margin-left: 100px;
+}
+
+#b{
+margin-left: 50px;
+
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: green;
+  text-decoration; none;
+}
